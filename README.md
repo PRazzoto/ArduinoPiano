@@ -30,7 +30,7 @@ Quando o Arduino IDE é baixado a biblioteca Math já está inclusa, no código 
 Funcionalidades:
 
 Volume:
-Para emitir as notas, é usada uma função imbutida no próprio Arduino, a função tone(), que irá gerar uma onda quadrada com uma frequência específica e um duty cycle de 50%. Assim como na figura (COLOCAR A FIGURA QUE EU VOU MANDAR). E para realizar o controle do volume dessa frequência emitida ... (Pedro, explica o que vc fez que eu n sei).
+Para emitir as notas, é usada uma função imbutida no próprio Arduino, a função tone(), que irá gerar uma onda quadrada com uma frequência específica e um duty cycle de 50%. E para realizar o controle do volume dessa está sendo usada a biblioteca de volume, porém modificado, a fim de evitar o conflito de bibliotecas.
 
 
 Oitava:
